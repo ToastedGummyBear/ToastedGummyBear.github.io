@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amoranto Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Portfolio</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+				<li><a href="#certificate">Certificate</a></li>
+                <li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Portfolio</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+				<li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+				<li><a href="#certificate" onclick="toggleMenu()">Certificate</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+				<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section class="section" id="profile" style="background-color: #6E9DAF">
+        <div class="section__pic-container">
+            <img src="assets/andropic.jpg" alt="Andro Pic"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Andro Cecilio A. Amoranto</h1>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('CurriculumVitae_Amoranto.pdf')">View CV</button>
+				<button class="btn btn-color-2" onclick="window.open('Amoranto_FinalReport.pdf')">View Final Report</button>
+            </div>
+        </div>
+    </section>
+	
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/aboutme.png" alt="About Me Icon" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/mcl.png" alt="MMCL Icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>B.S Computer Science<br>Mapua Malayan Colleges Laguna</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>My name is Andro Cecilio A. Amoranto, currently a 4th Year Computer Science student at Mapua Malayan Colleges Laguna. I find coding exciting since it allows limitless innovation that greatly helps businesses to operate more efficiently or develop software that improves people's lives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+	<section id = "skills">
+	<p class="section__text__p1">Know My</p>
+		  <h1 class="title">Skills</h1>
+		  <div class="experience-details-container">
+			<div class="about-containers">
+			  <div class="details-container">
+				<h2 class="experience-sub-title">Soft Skills</h2>
+				<div class="article-container">
+				  <article>
+					<img
+					  src="assets/adapt.png"
+					  alt="Experience icon"
+					  class="icon"
+					/>
+					<div>
+					  <h3>Adaptability</h3>       
+					</div>
+				  </article>
+				  <article>
+					<img
+					  src="assets/communication.png"
+					  alt="Experience icon"
+					  class="icon"
+					/>
+					<div>
+					  <h3>Communicate</h3>
+					</div>
+				  </article>
+				  <article>
+					<img
+					  src="assets/collab.png"
+					  alt="Experience icon"
+					  class="icon"
+					/>
+					<div>
+					  <h3>Collaboration</h3>
+					</div>
+				  </article>
+				  <article>
+					<img
+					  src="assets/time.png"
+					  alt="Experience icon"
+					  class="icon"
+					/>
+					<div>
+					  <h3>Time Management</h3>
+					</div>
+				  </article>
+				</div>
+			  </div>
+			  <div class="details-container">
+				<h2 class="experience-sub-title">Backend Developer</h2>
+				<div class="article-container">
+				  <article>
+					<img
+					  src="assets/softwaredev.png"
+					  alt="Experience icon"
+					  class="icon"
+					/>
+					<div>
+					  <h3>Software Development</h3>
+					  <p>Python, C#, JavaScript</p>
+					</div>
+				  </article>
+				  <article>
+					<img
+					  src="assets/gamedev.png"
+					  alt="Experience icon"
+					  class="icon"
+					/>
+					<div>
+					  <h3>Game Development</h3>
+					  <p>C#</p>
+					</div>
+				  </article>
+				  <article>
+					<img
+					  src="assets/webdev.png"
+					  alt="Experience icon"
+					  class="icon"
+					/>
+					<div>
+					  <h3>Web Development</h3>
+					  <p>C#, HTML</p>
+					</div>
+				  </article>
+				  <article>
+					<img
+					  src="assets/mobileapp.png"
+					  alt="Experience icon"
+					  class="icon"
+					/>
+					<div>
+					  <h3>Mobile Application Development</h3>
+					  <p>C#, React Native</p>
+					</div>
+				  </article>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	  </section>
+    <section id="experience">
+        <p class="section__text__p1">My Internship</p>
+        <h1 class="title">Experience</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/work.png" alt="Work Pic" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="fasttrack.png" alt="Company Logo" class="icon"/>
+                        <div>
+                            <h3>Fasttrack Solutions Inc.</h3>
+                            <p>Position: Intern</p>
+                            <p>Duration: 324 Hours</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>During my internship at Fasttrack Solutions Inc., I worked on a detailed case study for a major food canning manufacturing and distributor company, using SAP FIORI and SAP GUI system. The case study was given by our immediate supervisor and involved proposing an organizational structure, creating process flows based on the company's sales and logistics needs, and configuring the SAP S/4HANA (SAP FIORI, SAP GUI) Sales and Delivery Module to meet specific business requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<section id="certificate">
+	<p class="section__text__p1">My</p>
+	<h1 class="title">Certificates</h1>
+	<div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/nse1.png" alt="Online Hospital Appointment" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Network Security Associate</h2>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/aiseminar.jpeg" alt="Online Ordering and Delivery for Water Station" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">AI Summit</h2>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/cybersec.png" alt="Fruit Collector" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Cybersecurity 101</h2>
+                    </div>
+                </div>
+	
+	</section>
+    <div class="prj" style="background-color: #6E9DAF;" >
+        <section class="section" id="projects">
+            <p class="section__text__p1">My Projects</p>
+            <h1 class="title">Projects</h1>
+            
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/onlinehospital.png" alt="Online Hospital Appointment" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Online Hospital Appointment</h2>
+						<div class="btn-container">
+					  <button
+						class="btn btn-color-2 project-btn"
+						onclick="location.href='https://github.com/'"
+					  >
+						View Video
+					  </button>
+					  </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/waterrefilling.png" alt="Online Ordering and Delivery for Water Station" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Online Ordering and Delivery for Water Station</h2>
+						<div class="btn-container">
+					  <button
+						class="btn btn-color-2 project-btn"
+						onclick="location.href='https://github.com/'"
+					  >
+						View Video
+					  </button>
+					  </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/fruitcollector.png" alt="Fruit Collector" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Fruit Collector</h2>
+						<div class="btn-container">
+					  <button
+						class="btn btn-color-2 project-btn"
+						onclick="location.href='https://github.com/'"
+					  >
+						View Video
+					  </button>
+					  </div>
+                    </div>
+                </div>
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/4pics1word.png" alt="4 pics 1 word" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">4 Pics 1 Word</h2>
+						<div class="btn-container">
+					  <button
+						class="btn btn-color-2 project-btn"
+						onclick="location.href='https://github.com/'"
+					  >
+						View Video
+					  </button>
+					  </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="assets/mungbeancamera.png" alt="Mungbean Camera" class="project-img"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Mungbean Camera</h2>
+						<div class="btn-container">
+					  <button
+						class="btn btn-color-2 project-btn"
+						onclick="location.href='https://github.com/'"
+					  >
+						View Video
+					  </button>
+					  </div>
+                    </div>
+                </div>
+        </section>
+    
+    </div>
+
+    
+    <div class="contact1">
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                    <p>androcecilio@yahoo.com</p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="assets/phone.png" alt="Phone icon" class="icon contact-icon email-icon"/>
+                    <p>09338524906</p>
+                </div>
+            </div>
+            </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
